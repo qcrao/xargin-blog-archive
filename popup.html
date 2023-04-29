@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivational Quote</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            background-color: #282c34;
+            font-family: Arial, sans-serif;
+            width: 320px; /* 或者您喜欢的任何宽度 */
+            height: 100px; /* 或者您喜欢的任何宽度 */
+            flex-direction: column;
+            min-height: 100vh;
+            overflow-wrap: break-word;
+        }
+
+        .container {
+            padding: 0 10px; /* 为容器添加一些左右内边距 */
+        }
+
+        .container h1 {
+            word-break: break-word; /* 用于处理长标题换行 */
+            font-size: 24px; /* 可以根据需要调整字体大小 */
+            line-height: 24px;
+            color: #61dafb;
+            text-align: center;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+
+        .footer {
+            margin-top: auto;
+            padding: 15px 0;
+            background-color: #282c35;
+            text-align: center;
+            color: white;
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .container {
+            width: 200%;
+            height: 100%;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 15px;
+        }
+
+        header h2 {
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        hr {
+            width: 100%;
+            margin: 0 auto;
+            border: 0;
+            height: 1px;
+            background-color: #ccc;
+        }
+
+    
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(100px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Xargin Blog Archive</h2>
+        <hr>
+    </header>
+
+    <div class="container">
+        <h1>If you don't keep moving, </h1>
+        <h1>you'll quickly fall behind.</h1>
+    </div>
+
+    <div class="footer">
+        <p id="copyright"></p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
