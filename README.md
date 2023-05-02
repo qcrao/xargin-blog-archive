@@ -4,6 +4,10 @@ Xargin Blog Archive Extension 是一个轻量级的浏览器插件，用于查�
 
 # 截图
 
+<img width="1468" alt="image" src="https://user-images.githubusercontent.com/7698088/235591311-a84765a9-ec13-42e0-8284-546c6fe5cb1e.png">
+<img width="1468" alt="image" src="https://user-images.githubusercontent.com/7698088/235591324-3334af2b-607e-4056-9d80-5e6ca72f02c8.png">
+
+
 ## 功能
 
 - 在 Xargin 博客页面上添加文章归档链接
