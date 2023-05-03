@@ -3,10 +3,6 @@
   "name": "Xargin Blog Archive",
   "version": "1.0",
   "description": "在 xargin.com 网站的导航栏中添加一个 archive 栏目",
-  "permissions": [
-    "scripting",
-    "activeTab"
-  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
