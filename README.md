@@ -23,7 +23,7 @@ Xargin Blog Archive Extension 是一个轻量级的浏览器插件，用于查�
 
 ## 使用方法
 
-1. 在安装插件后，访问 https://xargin.com。
+1. 在安装插件后，访问 https://xargin.com
 2. 在博客页面的上方导航栏中，点击 "Archive"。
 3. 在弹出的页面中，浏览文章归档。
 4. 点击文章标题以访问相应文章。
