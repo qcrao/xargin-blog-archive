@@ -2,6 +2,8 @@
 
 Xargin Blog Archive Extension 是一个轻量级的浏览器插件，用于查看 Xargin 博客的文章归档。它提供了一种简便的方式来查看过去的博客文章列表，并支持暗黑模式。
 
+[Google Chrome Web Store 地址](https://chrome.google.com/webstore/detail/xargin-blog-archive/pokfcnejbacnbjbdodlklbafoienomda)
+
 # 截图
 
 <img width="1468" alt="image" src="https://user-images.githubusercontent.com/7698088/235591311-a84765a9-ec13-42e0-8284-546c6fe5cb1e.png">
