@@ -62,13 +62,11 @@ document.head.appendChild(style);
     const archiveLink = document.getElementById('archive-link');
 
     const loadMDFile = async () => {
-        // const targetUrl = 'https://644bf1c8a89dff009d00df4b--verdant-marigold-d5e883.netlify.app/xargin_blogs.md';
-        const targetUrl = 'https://master--verdant-marigold-d5e883.netlify.app/xargin_blogs.md';
+        const targetUrl = 'https://xargin-blog-crawler.pages.dev/xargin_blogs.md';
         const response = await fetch(targetUrl);
         if (response.ok) {
             // console.log('MD file fetched successfully');
             const mdText = await response.text();
-            // console.log('MD text:', mdText);
             return mdText;
         } else {
             console.log('Error fetching MD file:', response.status, response.statusText);
